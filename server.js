@@ -13,12 +13,7 @@ const app = express();
 dotenv.config();
 const port = process.env.PORT || 3001;
 
-app.use(
-  cors({
-    origin: "https://virtual-ai-beta.vercel.app",
-    credentials: true,
-  })
-);
+app.use(cors());
 
 app.use(bodyParser.json());
 
