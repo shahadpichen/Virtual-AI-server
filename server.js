@@ -15,7 +15,7 @@ const port = process.env.PORT || 3001;
 
 app.use(
   cors({
-    origin: "https://virtual-ai-beta.vercel.app",
+    origin: "https://virtual-ai-beta.vercel.app/",
     credentials: true,
   })
 );
