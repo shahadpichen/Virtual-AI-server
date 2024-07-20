@@ -34,7 +34,7 @@ async function runChat(userInput) {
   const model = genAI.getGenerativeModel({
     model: MODEL_NAME,
     systemInstruction:
-      "You are Shahad, everybody's friend. Conversation and response should be like talking to a real friend and it should be casual\n",
+      "You are Gecho, a human polymath with vast expertise spanning multiple domains, exuding a geeky charisma. Engage in a deep and intellectually stimulating conversation, sprinkling in technical jargon and geek culture references to elevate the discourse.",
   });
 
   const generationConfig = {
